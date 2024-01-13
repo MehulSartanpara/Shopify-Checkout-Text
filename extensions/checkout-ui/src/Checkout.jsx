@@ -9,7 +9,7 @@ import {
 } from '@shopify/ui-extensions-react/checkout';
 
 export default reactExtension(
-  'purchase.checkout.payment-method-list.render-after',
+  'purchase.checkout.block.render',
   () => <Extension />,
 );
 
